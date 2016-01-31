@@ -4,7 +4,6 @@ source "https://rubygems.org"
 
 # gem "cells", :github => "apotonick/cells"
 # gem "cells", path: "../../cells"
-gem "cells", github: "apotonick/cells"
 gem "railties", "~> 4.2.0"
 gem "activemodel"
 gem "minitest", "~> 5.2"
@@ -12,4 +11,4 @@ gem "tilt", "~> 2.0"
 
 gemspec :path => "../"
 
-gem "haml", github:"haml/haml"
+gem "haml", github:"haml/haml", ref: "7c7c169"
