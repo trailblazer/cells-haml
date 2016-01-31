@@ -1,3 +1,7 @@
+# 0.0.9
+
+* Make Rails optional.
+
 # 0.0.8
 
 Require >= haml-4.1.0.beta.1 as haml-rails doesn't know about its 5.0 compatibility, yet. You need to use commit , ref: `7c7c169`.
