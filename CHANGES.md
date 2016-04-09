@@ -1,3 +1,7 @@
+# 0.0.10
+
+* Allow Cells 4.0 - 5.x.
+
 # 0.0.9
 
 * Make Rails optional.
