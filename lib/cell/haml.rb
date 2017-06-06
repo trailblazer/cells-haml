@@ -12,10 +12,5 @@ module Cell
     end
 
     attr_writer :output_buffer
-
-    if Object.const_defined?(:ActionView)
-      require "cell/haml/rails"
-      include Cell::Haml::Rails
-    end
   end
 end

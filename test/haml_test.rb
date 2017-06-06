@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class HamlTest < MiniTest::Spec
-  let (:controller) { ApplicationController.new.tap { |ctl| ctl.send("request=", ActionDispatch::Request.new({})) } }
-  let (:song_cell) { SongCell.new(nil, controller: controller) }
+  let(:controller) { ApplicationController.new.tap { |ctl| ctl.send("request=", ActionDispatch::Request.new({})) } }
+  let(:song_cell) { SongCell.new(nil, controller: controller) }
 
   # render in render
   it { song_cell.(:render_in_render).must_equal "<b>Questions: Yes!</b>\n" }

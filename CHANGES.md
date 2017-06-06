@@ -1,3 +1,8 @@
+# 0.1.0
+
+* Drop support for rails. Add cells-rails in addition to this gem
+* Drop support of haml prior 5.0
+
 # 0.0.10
 
 * Allow Cells 4.0 - 5.x.

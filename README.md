@@ -8,7 +8,6 @@ Add this line to your application's Gemfile:
 
 ```ruby
 gem 'cells-haml'
-gem "haml", github: "haml/haml", ref: "7c7c169"
 ```
 
 This gem currently only works properly with Haml 4.1, which is not yet released.
@@ -30,7 +29,3 @@ end
 ```
 
 If that doesn't work, [read the docs](http://trailblazer.to/gems/cells/cells4.html#html-escaping).
-
-## Dependencies
-
-This gem works with Tilt 1.4 and 2.0, and hence allows you to use it from Rails 3.2 upwards.
