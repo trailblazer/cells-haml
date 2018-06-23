@@ -7,4 +7,4 @@ gemspec
 gem 'railties'
 gem 'actionpack'
 gem 'actionview'
-gem "haml", github:"haml/haml", ref: "7c7c169" #"4.1.0.beta1" #github: "haml/haml" # we need 4.1.
+gem "haml"
