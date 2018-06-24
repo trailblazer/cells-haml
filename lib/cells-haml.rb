@@ -1,2 +1,1 @@
-require 'cells'
-require 'cell/haml'
+require "cell/haml"

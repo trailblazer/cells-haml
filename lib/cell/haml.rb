@@ -1,8 +1,9 @@
-require 'tilt/haml'
+require "cells"
+require "tilt/haml"
 
 module Cell
   module Haml
-    def template_options_for(options)
+    def template_options_for(_options)
       {
         template_class: ::Tilt::HamlTemplate,
         escape_html:    false,
@@ -10,12 +11,9 @@ module Cell
         suffix:         "haml"
       }
     end
+  end
 
-    attr_writer :output_buffer
-
-    if Object.const_defined?(:ActionView)
-      require "cell/haml/rails"
-      include Cell::Haml::Rails
-    end
+  class Cell::ViewModelHaml < Cell::ViewModel
+    include Cell::Haml
   end
 end
