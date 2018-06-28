@@ -1,4 +1,10 @@
-gemfile:
-  - gemfiles/rails_4.2-tilt-2.0.gemfile
-before_install:
-  - gem install bundler
+language: ruby
+rvm:
+  - 2.5.1
+  - 2.4.4
+  - 2.3.7
+  - 2.2
+
+sudo: false
+
+script: bundle exec rake
